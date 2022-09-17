@@ -132,3 +132,5 @@ iptables -A OUTPUT -m string --algo kmp --string "pipigx.com" -j DROP
 iptables -A OUTPUT -m string --algo kmp --string "ixiaochuan.cn" -j DROP
 iptables -A OUTPUT -m string --algo kmp --string "duitang.com" -j DROP
 iptables -A OUTPUT -m string --algo kmp --string "renren.com" -j DROP
+
+apt-get install iptables-persistent
