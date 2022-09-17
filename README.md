@@ -12,5 +12,5 @@ apt-get install iptables
 
 ### 2. execute script
 ```ssh
-wget -N --no-check-certificate "https://github.com/Aipblock/iptaBlock/blob/3484d8a265e6401c872e1c273dfe7c4bcaf0f208/iptaBlock.ssh" -O iptaBlock.ssh;sh iptaBlock.ssh
+wget -N --no-check-certificate "https://github.com/Aipblock/iptaBlock/blob/3484d8a265e6401c872e1c273dfe7c4bcaf0f208/iptaBlock.sh" -O iptaBlock.sh;sh iptaBlock.sh
 ```
