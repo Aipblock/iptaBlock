@@ -8,5 +8,5 @@ Block access to certain purpose websites based on a simple script
 ### 1. install iptables
 ```ssh
 apt-get install iptables
-
+```
 
