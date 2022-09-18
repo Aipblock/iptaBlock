@@ -1,7 +1,7 @@
 # iptaBlock
 Block access to certain purpose websites based on a simple script
 
-- Recommendation: Deploy on the endpoint server
+- Recommendation: Deploy on the last endpoint server
 
 ## System environment
 - Debian10+
