@@ -1,4 +1,16 @@
 #!/bin/sh
+
+red='\033[0;31m'
+plain='\033[0m'
+
+# check root
+[[ $EUID -ne 0 ]] && echo -e "${red}错误：${plain} 必须使用root用户运行此脚本！\n" && exit 1
+
+if [ `grep -c "Debian" /etc/issue` -eq '0' ];then
+    echo "----------此脚本不支持此系统！----------"
+	exit 1;
+    fi
+
 # 清空配置
 iptables -P INPUT ACCEPT
 iptables -F
@@ -134,3 +146,4 @@ iptables -A OUTPUT -m string --algo kmp --string "duitang.com" -j DROP
 iptables -A OUTPUT -m string --algo kmp --string "renren.com" -j DROP
 
 apt-get install iptables-persistent
+echo -e "----------脚本执行完毕----------"
