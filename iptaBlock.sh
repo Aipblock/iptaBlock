@@ -146,4 +146,4 @@ iptables -A OUTPUT -m string --algo kmp --string "duitang.com" -j DROP
 iptables -A OUTPUT -m string --algo kmp --string "renren.com" -j DROP
 
 apt-get install iptables-persistent
-echo -e "----------脚本执行完毕----------"
+echo "----------脚本执行完毕----------"
