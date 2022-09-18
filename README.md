@@ -12,7 +12,7 @@ You can visit the following website
 ```
 news.agentm.tw
 ```
-### 2. After deploying the script
+### 2. after deploying the script
 Revisit the site you just visited
 ```
 news.agentm.tw
